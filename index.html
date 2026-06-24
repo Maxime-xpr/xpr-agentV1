@@ -47,7 +47,7 @@ strong{color:var(--ink);font-weight:600;}
 /* Justification des paragraphes de lecture */
 .obs p, .hero .sub{text-align:justify;}
 .obs .obs-no, .obs .scope-line{text-align:left;}
-.obs .figure, .obs .figure-sub, .obs .microcopy{text-align:center;}
+.obs .figure, .obs .figure-sub, .obs .microcopy, .obs .pull{text-align:center;}
 
 /* Listes em-dash */
 .dash{list-style:none;margin:6px 0 22px;padding:0;}
@@ -58,6 +58,7 @@ strong{color:var(--ink);font-weight:600;}
 .figure{font-family:var(--serif);font-weight:500;font-size:clamp(40px,8vw,60px);line-height:1.05;color:var(--ink);margin:26px 0 4px;letter-spacing:-.01em;}
 .figure small{font-size:.42em;color:var(--accent);vertical-align:super;}
 .figure-sub{font-size:14.5px;color:var(--ink-soft);margin:0 0 22px;}
+.pull{font-family:var(--serif);font-style:italic;font-size:clamp(20px,3.4vw,25px);line-height:1.45;color:var(--ink);margin:30px 0 6px;}
 
 /* Méthode */
 .cadre{list-style:none;margin:6px 0 22px;padding:0;}
@@ -92,11 +93,11 @@ strong{color:var(--ink);font-weight:600;}
      ============================================================ -->
 <header class="hero">
   <div class="wrap">
-    <h1>Pourquoi la gestion de sinistres ralentit les performances d'une agence ?</h1>
-    <p class="sub">Analyse des points qui dégradent la relation client et qui n’apparaissent nulle part.</p>
-    <p class="mention">XPR, regard d’expert indépendant sur la gestion des sinistres, côté opérations.</p>
+    <h1>Votre nom est sur l'enseigne. Même quand la décision ne dépend pas de vous.</h1>
+    <p class="sub">Observations de terrain sur les sinistres sensibles qui absorbent du temps, mobilisent les équipes et mettent l’agence en première ligne face au client.</p>
+    <p class="mention">XPR · Regard indépendant sur les dossiers dommages aux biens qui sortent du flux standard.</p>
     <a class="cta js-cta" href="#contact">Échanger avec Maxime</a>
-    <p class="microcopy">Un échange direct, sans discours commercial.</p>
+    <p class="microcopy">Un échange direct, sans tunnel, sans visio imposée, sans discours commercial.</p>
   </div>
 </header>
 
@@ -132,10 +133,23 @@ strong{color:var(--ink);font-weight:600;}
   <div class="wrap">
     <p class="obs-no">Observation 02 · Le conseil</p>
     <h2 class="obs-title">La parole réconforte, les actes crédibilisent.</h2>
-    <p>Les clients pensent souvent que vous aurez réponse à tout. Et ce n’est pas dans votre intérêt de dire le contraire. Structurer la demande client, relire un rapport, préserver le lien : tout repose sur vous.</p>
+    <p>Les clients attendent rarement que l’agence sache tout. Mais ils attendent qu’elle sache orienter, traduire et donner du sens. Structurer la demande client, relire un rapport, préserver le lien : tout repose sur vous.</p>
     <p>Vous êtes présent avant, pendant et après l’expertise. Il vous transfère des courriers, des demandes, des conclusions en espérant que vous accélérerez le traitement. Il attend du soutien qu’il pense compris dans son contrat. Inconsciemment, vous êtes son allié quand il s’agit d’avoir une réponse.</p>
-    <p>Mais vous n’avez pas l’œil de l’expert.</p>
-    <p>Pourtant vous savez qu’un conseil donné dans le bon tempo a plus de valeur que la meilleure des clauses contractuelles. Mais c’est souvent l’expert qui le détient.</p>
+    <p>Mais votre rôle n’est pas celui de l’expert. Et pourtant, le client attend souvent de vous une lecture claire du dossier.</p>
+    <p>Vous savez qu’un conseil donné dans le bon tempo a plus de valeur que la meilleure des clauses contractuelles. Mais c’est souvent l’expert qui le détient.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     QUI PARLE ?  (incarnation Maxime, inséré après §02)
+     ============================================================ -->
+<section class="obs">
+  <div class="wrap">
+    <p class="obs-no">À propos</p>
+    <h2 class="obs-title">Qui parle ?</h2>
+    <p>Je m’appelle Maxime Hrynyk. Depuis 2014, j’interviens dans l’évaluation des risques et dommages aux biens en assurance. J’ai vu des dossiers simples, des dossiers mal préparés, des dossiers techniquement justes mais mal vécus, et des dossiers où l’agence s’est retrouvée à porter une tension qu’elle n’avait pas créée.</p>
+    <p>XPR naît de cette observation : entre le contrat, l’expert, la compagnie et l’assuré, l’agence reste souvent le point de contact le plus exposé.</p>
+    <p>L’objectif n’est pas de contourner les process compagnie. L’objectif est de rendre les dossiers plus lisibles, mieux préparés et plus faciles à expliquer.</p>
   </div>
 </section>
 
@@ -146,7 +160,7 @@ strong{color:var(--ink);font-weight:600;}
   <div class="wrap">
     <p class="obs-no">Observation 03 · La considération</p>
     <h2 class="obs-title">La prime n'est jamais la raison, la considération si.</h2>
-    <p>Vos clients les plus importants n’ont pas le temps de jouer au jeu des justificatifs. Et c’est ce qui alourdit le plus le temps de traitement de leur dossier. C’est précisément à cet endroit que le plus de refus de garantie s’appliquent :</p>
+    <p>Vos clients les plus importants n’ont pas le temps de jouer au jeu des justificatifs. Et c’est ce qui alourdit le plus le temps de traitement de leur dossier. C’est souvent à cet endroit que les incompréhensions, les réserves ou les décisions difficiles à expliquer apparaissent :</p>
     <ul class="dash">
       <li>Circonstances troubles</li>
       <li>Manque d’éléments</li>
@@ -163,8 +177,8 @@ strong{color:var(--ink);font-weight:600;}
   <div class="wrap">
     <p class="obs-no">Observation 04 · Le temps</p>
     <h2 class="obs-title">Le temps ne part pas là où vous croyez.</h2>
-    <p>Un expert sait identifier en quelques instants les points sensibles d’un dossier. Parce que c’est son rôle. Même si ce n’est pas le vôtre, vous avez un intérêt commercial à connaître son traitement. C’est pour cette raison que vous allez en expertise.</p>
-    <p>Au-delà de la relation client, vous voulez connaître la gestion du dossier pour préparer l’après. Et ce temps coûte à l’agence une perte de production, de conseils, de développement.</p>
+    <p>Un expert sait identifier en quelques instants les points sensibles d’un dossier. Parce que c’est son rôle. Même si ce n’est pas le vôtre, vous avez un intérêt à les connaître aussi. C’est souvent pour cette raison que vous allez en expertise.</p>
+    <p>Au-delà d’une implication concrète dans l’épreuve du client, vous voulez connaître les ficelles de la gestion du dossier pour préparer l’après. Et ce temps coûte à l’agence une part de production, de conseils, et de développement.</p>
   </div>
 </section>
 
@@ -175,11 +189,39 @@ strong{color:var(--ink);font-weight:600;}
   <div class="wrap">
     <p class="obs-no">Observation 05 · Manque à gagner</p>
     <h2 class="obs-title">Quelques heures par semaine.</h2>
-    <p>Réparti sur une semaine, c’est en moyenne 4 heures qui se diluent. Sur une année, près de 184 heures (plus d’un mois à 35 h/semaine), soit :</p>
+    <p>Réparti sur une semaine, c’est en moyenne 4 heures d’agence qui se diluent. Sur une année, près de 184 heures (plus d’un mois à 35 h/semaine), soit :</p>
     <p class="figure">≈ 27 000 <small>€/an</small></p>
     <p class="figure-sub">(Estimation de capacité immobilisée par agence.)</p>
-    <p>Ce n’est pas du gain. C’est une capacité de production mobilisée. L’enjeu n’est pas de le récupérer, mais de savoir comment le recycler ou le réinvestir dans des tâches à plus forte valeur ajoutée.</p>
-    <p>Si le parcours client dans un sinistre était cadré, peut-être que vous n’auriez pas à y retenir autant de capacité de production.</p>
+    <p>Ce n’est pas du gain. C’est une capacité de production mobilisée. L’enjeu n’est pas de le récupérer, mais de savoir comment le contenir, le recycler en outil de fidélisation, ou le réinvestir dans des tâches à plus forte valeur ajoutée.</p>
+    <p>Dans votre agence, ces heures sont portées par qui ?</p>
+    <ul class="dash">
+      <li>Vous ?</li>
+      <li>Un associé ?</li>
+      <li>Une collaboratrice expérimentée ?</li>
+      <li>La personne que tout le monde sollicite dès qu’un dossier se complique ?</li>
+    </ul>
+    <p>Le problème n’est pas seulement le volume. C’est la dépendance à une compétence rare, souvent non formalisée.</p>
+    <p>Si l’agence sortait du flou sur la gestion des sinistres sensibles, que se passerait-il ?</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION — CONCRÈTEMENT  (l'intervention rendue concrète)
+     ============================================================ -->
+<section class="obs">
+  <div class="wrap">
+    <p class="obs-no">L’intervention</p>
+    <h2 class="obs-title">Concrètement, XPR fait quoi ?</h2>
+    <p>XPR intervient sur une période courte et cadrée pour aider l’agence à mieux gérer les sinistres dommages qui sortent du flux standard.</p>
+    <ul class="dash">
+      <li>Nous analysons plusieurs dossiers récents ou en cours.</li>
+      <li>Nous identifions où l’agence perd du temps, manque de lecture technique ou récupère une tension client.</li>
+      <li>Nous traduisons ces observations en réflexes simples pour l’équipe.</li>
+      <li>Nous travaillons les points clés : quelles pièces demander, quoi vérifier, comment lire un rapport, quand intervenir, quand laisser le process suivre son cours.</li>
+      <li>Nous laissons à l’agence un cadre réutilisable pour les prochains dossiers.</li>
+    </ul>
+    <p>L’objectif n’est pas de faire à la place de l’agence. L’objectif est qu’elle sache mieux quoi regarder, quoi expliquer, quoi cadrer et quoi ne pas porter.</p>
+    <p class="pull">XPR transforme l’expérience d’un expert dommages en méthode interne pour aider l’agence à perdre moins de temps sur les dossiers sensibles, sans prendre sa place face au client.</p>
   </div>
 </section>
 
@@ -189,9 +231,9 @@ strong{color:var(--ink);font-weight:600;}
 <section class="obs">
   <div class="wrap">
     <p class="obs-no">Observation 06 · L’équipe</p>
-    <h2 class="obs-title">Une compétence qui repose parfois sur une seule personne.</h2>
-    <p>La capacité d’aiguiller, de contenir, de structurer les réclamations clients est (souvent) assumée par un collaborateur d’expérience. Tant qu’il est là, le temps commercial est protégé. Mais le jour où il s’absente (retraite, congés, maladie), les forces de production sont directement impactées.</p>
-    <p>Parce que le sujet n’est pas de remplacer, mais de posséder les supports techniques qui permettent de transférer les compétences requises sur d’autres.</p>
+    <h2 class="obs-title">Une compétence individuelle, que seul le terrain apprend.</h2>
+    <p>Cette rapidité d’analyse, de traduction, et de gestion d’une demande d’explication client est (souvent) assumée par un collaborateur d’expérience. Tant qu’il est là, tout tient. Mais le jour où il s’absente, c’est souvent le responsable qui doit absorber le flux par manque de ressource.</p>
+    <p>Les clients ne changeront pas. L’enjeu d’une agence est de dupliquer cette compétence pour continuer l’expansion avec le même standing.</p>
   </div>
 </section>
 
@@ -201,11 +243,11 @@ strong{color:var(--ink);font-weight:600;}
 <section class="obs">
   <div class="wrap">
     <p class="obs-no">Observation 07 · Le périmètre</p>
-    <h2 class="obs-title">Apporter de la souplesse dans un cadre rigide.</h2>
-    <p>XPR transfère son expérience du sinistre à l’agence. Avec une vision 360° de l’analyse de risque aux modes de gestion des dossiers sinistres, la méthode s’intègre sans temps supplémentaire.</p>
-    <p>Nous livrons aux agences les ressources qui valorisent l’expérience client sans interférer dans les relations avec le siège ni avec les clients.</p>
+    <h2 class="obs-title">Une lecture d'expert, sans prendre votre place.</h2>
+    <p>XPR apporte à l’agence une lecture d’expert dommages, sans se substituer à son rôle. L’intervention sert à mieux préparer les dossiers, mieux lire les points sensibles et mieux structurer les réponses internes quand un sinistre devient chronophage.</p>
+    <p>Nous livrons aux agences des formats d’intervention courts et cadrés, sans interférer dans les procédures des compagnies ni avec les clients.</p>
     <p class="scope-line" style="margin-top:6px;"><b>Dans le périmètre · contrats :</b> MRH, MRP, immeuble, artisans, commerçants, agriculteurs…</p>
-    <p class="scope-line"><b>Dans le périmètre · interventions :</b> vérification de risque, lecture de rapport, support interne, ressource technique.</p>
+    <p class="scope-line"><b>Dans le périmètre · interventions :</b> vérification de risque, lecture de rapport, appui technique interne cadré, lecture technique ponctuelle.</p>
     <p class="scope-line"><b>Hors périmètre :</b> automobile, substitution de l’expert compagnie ou assuré, hotline illimitée, contestation, rôle d’intermédiaire agence / client.</p>
   </div>
 </section>
@@ -234,11 +276,11 @@ strong{color:var(--ink);font-weight:600;}
 <section class="obs" id="contact">
   <div class="wrap">
     <p class="obs-no">Observation 09 · La vôtre</p>
-    <h2 class="obs-title">Quels sont les trois plus gros problèmes de votre agence ?</h2>
-    <p>Pas dix. Trois. Ceux qui reviennent, qui coûtent du temps, qui pèsent sur la relation client.</p>
-    <p>Si l’un d’eux croise la gestion des sinistres sensibles, parlons-en. Sinon, vous aurez au moins posé vos priorités à voix haute.</p>
-    <a class="cta js-cta" href="#contact" style="margin-top:8px;">En parler avec Maxime</a>
-    <p class="microcopy">Échanges physiques privilégiés quand la distance le permet.</p>
+    <h2 class="obs-title">Quels sont les 3 dossiers qui vous ont pris trop de temps cette année ?</h2>
+    <p>Pas les plus gros. Pas forcément les plus graves. Ceux qui ont généré trop d’appels, trop d’explications, trop de relances ou trop de tension client.</p>
+    <p>Si l’un d’eux touche aux sinistres dommages sensibles, je peux vous aider à le relire comme un expert et à voir ce qui aurait pu être cadré autrement.</p>
+    <a class="cta js-cta" href="#contact" style="margin-top:8px;">Me parler d’un dossier sensible</a>
+    <p class="microcopy">Réponse personnelle. Échanges physiques privilégiés quand la distance le permet. Pas de visio imposée, pas de tunnel automatisé.</p>
   </div>
 </section>
 
@@ -258,14 +300,17 @@ strong{color:var(--ink);font-weight:600;}
 /* ▼▼▼ À MODIFIER : TON EMAIL ▼▼▼ */
 var CONTACT_EMAIL = "gestion@xpr-conseils.com";
 (function(){
-  var subject = "Échange terrain · sinistres sensibles en agence";
+  var subject = "Échange terrain · dossier sinistre sensible";
   var body =
-    "Bonjour,\n" +
-    "Je suis intéressé pour discuter d'un dossier.\n" +
-    "Pouvez-vous me recontacter ?\n\n" +
-    "Nom + Prénom : \n" +
-    "Ville : \n" +
-    "Contact Tél : ";
+    "Bonjour Maxime,\n\n" +
+    "J'ai lu votre page sur les sinistres sensibles en agence.\n" +
+    "Le sujet mérite un échange, notamment sur un dossier qui nous a pris trop de temps.\n\n" +
+    "Contexte rapide :\n" +
+    "- Type de dossier : \n" +
+    "- Ce qui a bloqué : \n" +
+    "- Temps ou tension générée : \n" +
+    "- Disponibilités pour échanger : \n\n" +
+    "Bien à vous,";
   var mailto = "mailto:" + CONTACT_EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
   document.querySelectorAll(".js-cta").forEach(function(el){ el.setAttribute("href", mailto); });
 })();
